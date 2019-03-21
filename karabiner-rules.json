@@ -2,13 +2,145 @@
   "title": "karabiner rules",
   "rules": [
     {
+      "description": "page up/down",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
+            }
+          },
+          "to": [{ "key_code": "page_down" }],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
+            }
+          },
+          "to": [{ "key_code": "page_up" }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+    {
+      "description": "closer backspace",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
+            }
+          },
+          "to": [{ "key_code": "delete_or_backspace" }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+    {
+      "description": "closer delete forward",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
+            }
+          },
+          "to": [{ "key_code": "delete_forward" }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+    {
+      "description": "closer return",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
+            }
+          },
+          "to": [{ "key_code": "return_or_enter" }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+
+    {
+      "description": "show desktop",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [ "fn" ]
+            }
+          },
+          "to": [{ "key_code": "f11" }],
+          "type": "basic"
+        }
+      ]
+    },
+
+
+    {
       "description": "f1…f2",
       "manipulators": [
         {
           "from": {
             "key_code": "1",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f1" }],
@@ -18,7 +150,13 @@
           "from": {
             "key_code": "2",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f2" }],
@@ -28,7 +166,13 @@
           "from": {
             "key_code": "3",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f3" }],
@@ -38,7 +182,13 @@
           "from": {
             "key_code": "4",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f4" }],
@@ -48,7 +198,13 @@
           "from": {
             "key_code": "5",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f5" }],
@@ -58,7 +214,13 @@
           "from": {
             "key_code": "6",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f6" }],
@@ -68,7 +230,13 @@
           "from": {
             "key_code": "7",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f7" }],
@@ -78,7 +246,13 @@
           "from": {
             "key_code": "8",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f8" }],
@@ -88,7 +262,13 @@
           "from": {
             "key_code": "9",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f9" }],
@@ -98,7 +278,13 @@
           "from": {
             "key_code": "0",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f10" }],
@@ -108,7 +294,13 @@
           "from": {
             "key_code": "hyphen",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f11" }],
@@ -118,7 +310,13 @@
           "from": {
             "key_code": "equal_sign",
             "modifiers": {
-              "mandatory": [ "fn" ]
+              "mandatory": [ "fn" ],
+              "optional": [
+                "command",
+                "option",
+                "shift",
+                "control"
+              ]
             }
           },
           "to": [{ "key_code": "f12" }],
@@ -126,6 +324,8 @@
         }
       ]
     },
+
+
     {
       "description": "media keys",
       "manipulators": [
@@ -203,6 +403,8 @@
         }
       ]
     },
+
+
     {
       "description": "homerow arrows",
       "manipulators": [
